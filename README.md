@@ -7,7 +7,7 @@ After the installation and the creation of a `rabbit_binder.yml` file, it can be
 python3 -m rabbit_binder
 ```
 
-Each function defined in the `rabbit_binder.yml` will consume RabbitMQ queue on a different process. If one of the queue crashes, all the process will be terminated.
+Each function defined in the `rabbit_binder.yml` will consume a RabbitMQ queue on a different process. If one of the queue crashes, all the process will be terminated.
 
 # Installation
 
