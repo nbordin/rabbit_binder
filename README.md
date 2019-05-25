@@ -47,7 +47,7 @@ functions:
 * `functions`: list of function-queue bindings:
     * `module_path`: path to Python module containing the module.
     * `module_name`: name of Python module containing the function.
-    * `function_name`: name of Python function to be consuming the queue's messages.
+    * `function_name`: name of Python function consuming the queue's messages.
     * `exchange`: name of RabbitMQ's exchange.
     * `queue`: name of RabbitMQ's queue.
     * `routing_key`: name of queue's routing_key (if not set `queue = routing_key`).
