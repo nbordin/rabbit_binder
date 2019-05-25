@@ -1,0 +1,6 @@
+*.code-workspace
+__pycache__
+sandbox
+build/*
+dist/*
+*.egg-info

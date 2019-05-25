@@ -1,0 +1,18 @@
+rabbitmq:
+  host: localhost # not necessary
+  port: 5672 # not necessary
+  userid: guest # not necessary
+  password: guest # not necessary
+functions:
+  - module_path: /path/to/examples
+    module_name: module_1
+    function_name: test_1_import
+    exchange: test-exchange
+    queue: test-queue
+    routing_key: test-routing-key
+  - module_path: /path/to/examples
+    module_name: module_2
+    function_name: test_2_import
+    exchange: test-exchange-2
+    queue: test-queue-2
+    routing_key: test-routing-key-2
