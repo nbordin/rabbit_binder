@@ -49,5 +49,5 @@ if __name__ == '__main__':
             if not process.is_alive():
                 for n, p in processes.items():
                     p.terminate()
-                raise ValueError('%s crashed. Stopping the rabbit_binder.' % p_name)
+                raise ValueError('%s crashed. Stopping rabbit_binder.' % p_name)
         time.sleep(1)
