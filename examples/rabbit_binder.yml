@@ -1,8 +1,8 @@
 rabbitmq:
-  host: localhost # not necessary
-  port: 5672 # not necessary
-  userid: guest # not necessary
-  password: guest # not necessary
+  host: localhost # default (can be omitted)
+  port: 5672 # default (can be omitted)
+  userid: guest # default (can be omitted)
+  password: guest # default (can be omitted)
 functions:
   - module_path: /path/to/examples
     module_name: module_1
