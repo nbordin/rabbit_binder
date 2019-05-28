@@ -16,7 +16,7 @@ Requirements:
 - `PyYAML==5.1`
 
 ```shell
-pip3 install setuptools install
+pip3 setup.py install
 ```
 
 # rabbit_binder.yml
